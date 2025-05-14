@@ -11,7 +11,7 @@ require('dotenv').config();
 
 // Configure middleware
 app.use(cors({
-    origin: 'http://localhost:5173', // Your React app URL
+    origin: 'https://product-frontend-tmx7.onrender.com/login', // Your React app URL
     credentials: true
 }));
 app.use(express.json());
